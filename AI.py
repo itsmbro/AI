@@ -105,3 +105,4 @@ if st.button("Genera Modifica"):
             except Exception as e:
                 st.error(f"Errore nella comunicazione con OpenAI: {str(e)}")
 from modifica_1 import *
+from modifica_2 import *
