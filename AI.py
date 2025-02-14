@@ -9,7 +9,7 @@ import re
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
 GITHUB_USER = "itsmbro"  # Sostituisci con il tuo username GitHub
-GITHUB_REPO = "task"
+GITHUB_REPO = "AI"
 GITHUB_BRANCH = "main"
 TASK_MAIN_PATH = "AI.py"  # File principale
 
