@@ -4,12 +4,7 @@ import json
 import requests
 import base64
 import re
-import importlib  # Importa il modulo principale
 
-# Pulsante per forzare il reload manuale
-if st.button("Ricarica il codice"):
-    importlib.reload(AI)
-    st.success("Codice ricaricato con successo!")
 # Configurazione credenziali dai secrets di Streamlit
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
