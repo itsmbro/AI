@@ -4,7 +4,7 @@ import json
 import requests
 import base64
 import re
-import AI  # Importa il modulo principale
+import importlib  # Importa il modulo principale
 
 # Pulsante per forzare il reload manuale
 if st.button("Ricarica il codice"):
