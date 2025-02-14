@@ -120,3 +120,4 @@ from modifica_2 import *
 from modifica_4 import *
 from modifica_5 import *
 from modifica_6 import *
+from modifica_7 import *
