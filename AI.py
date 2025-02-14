@@ -4,6 +4,17 @@ import json
 import requests
 import base64
 import re
+####
+import os
+import importlib
+
+# Trova tutti i file modifica_X.py nella cartella
+modifiche = [f[:-3] for f in os.listdir() if f.startswith("modifica_") and f.endswith(".py")]
+
+# Importa dinamicamente ogni file di modifica
+for mod in modifiche:
+    importlib.import_module(mod)
+####
 
 # Configurazione credenziali dai secrets di Streamlit
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
